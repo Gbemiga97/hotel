@@ -183,10 +183,29 @@ export const roomData = [
   },
 ];
 
+const heroSlides = [
+  {
+    title: 'Your Luxury Hotel For Vacation',
+    bg:images.HeroImg1,
+    btnText: 'See our rooms',
+  },
+  {
+    title: 'Your Luxury Hotel For Vacation',
+    bg:images.HeroImg2,
+    btnText: 'See our rooms',
+  },
+  {
+    title: 'Your Luxury Hotel For Vacation',
+    bg:images.HeroImg3,
+    btnText: 'See our rooms',
+  },
+]
+
 
 
 const data = {
-  roomData
+  roomData,
+  heroSlides
 }
 
 export default data

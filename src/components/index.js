@@ -8,7 +8,7 @@ import Header from "./Header";
 import HeroSlider from "./HeroSlider";
 import Room from "./Room";
 import Rooms from "./Rooms";
-
+import ScrollToTop from "./ScrollToTop";
 
 
 export {
@@ -21,5 +21,6 @@ export {
     Header,
     HeroSlider,
     Room,
-    Rooms
+    Rooms,
+    ScrollToTop
 }

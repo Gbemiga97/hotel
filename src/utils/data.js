@@ -1,3 +1,5 @@
+import images from './images'
+
 // import icons
 import {
   FaWifi,
@@ -29,8 +31,8 @@ export const roomData = [
     size: 30,
     maxPerson: 1,
     price: 115,
-    image: Room1Img,
-    imageLg: Room1ImgLg,
+    image: images.Room1Img,
+    imageLg: images.Room1ImgLg,
   },
   {
     id: 2,
@@ -50,8 +52,8 @@ export const roomData = [
     size: 70,
     maxPerson: 2,
     price: 220,
-    image: Room2Img,
-    imageLg: Room2ImgLg,
+    image: images.Room2Img,
+    imageLg: images.Room2ImgLg,
   },
   {
     id: 3,
@@ -71,8 +73,8 @@ export const roomData = [
     size: 50,
     maxPerson: 3,
     price: 265,
-    image: Room3Img,
-    imageLg: Room3ImgLg,
+    image: images.Room3Img,
+    imageLg: images.Room3ImgLg,
   },
   {
     id: 4,
@@ -92,8 +94,8 @@ export const roomData = [
     size: 50,
     maxPerson: 4,
     price: 289,
-    image: Room4Img,
-    imageLg: Room4ImgLg,
+    image: images.Room4Img,
+    imageLg: images.Room4ImgLg,
   },
   {
     id: 5,
@@ -113,8 +115,8 @@ export const roomData = [
     size: 90,
     maxPerson: 5,
     price: 320,
-    image: Room5Img,
-    imageLg: Room5ImgLg,
+    image: images.Room5Img,
+    imageLg: images.Room5ImgLg,
   },
   {
     id: 6,
@@ -134,8 +136,8 @@ export const roomData = [
     size: 45,
     maxPerson: 6,
     price: 344,
-    image: Room6Img,
-    imageLg: Room6ImgLg,
+    image: images.Room6Img,
+    imageLg: images.Room6ImgLg,
   },
   {
     id: 7,
@@ -155,8 +157,8 @@ export const roomData = [
     size: 84,
     maxPerson: 7,
     price: 389,
-    image: Room7Img,
-    imageLg: Room7ImgLg,
+    image: images.Room7Img,
+    imageLg: images.Room7ImgLg,
   },
   {
     id: 8,
@@ -176,8 +178,8 @@ export const roomData = [
     size: 48,
     maxPerson: 8,
     price: 499,
-    image: Room8Img,
-    imageLg: Room8ImgLg,
+    image: images.Room8Img,
+    imageLg: images.Room8ImgLg,
   },
 ];
 

@@ -1,8 +1,24 @@
+import {AdultsDropdown, CheckIn, CheckOut, KidsDropdown} from "."
 
 
 const BookForm = () => {
   return (
-    <div>BookForm</div>
+   <form className="h-[300px] w-full lg:h-[70px]" >
+    <div className="flex flex-col w-full h-full lg:flex-row">
+      <div className="flex-1 border-r" >
+        <CheckIn />
+      </div>
+      <div className="flex-1 border-r">
+        <CheckOut />
+      </div>
+      <div className="flex-1 border-r">
+        <AdultsDropdown />
+      </div>
+      <div className="flex-1 border-r">
+        <KidsDropdown />
+      </div>
+    </div>
+   </form>
   )
 }
 
